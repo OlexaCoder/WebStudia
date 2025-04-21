@@ -1,0 +1,32 @@
+@media screen and (max-width: 915px) {
+  .footer {
+    &_top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      justify-content: center;
+      .footer_list--wrapper {
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .footer {
+    &_top {
+      grid-template-columns: repeat(1, 1fr);
+
+      .footer_list--wrapper{
+        &--title {
+          font-size: 26px;
+        }
+        &--subitem--link {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

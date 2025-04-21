@@ -1,0 +1,18 @@
+@media screen and (max-width: 1150px) {
+  .header {
+    &_top {
+      justify-content: center;
+      &--list {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 25px;
+      }
+    }
+    &_line {
+      margin-top: 20px;
+    }
+    &_bottom--title {
+      font-size: 32px;
+    }
+  }
+}
